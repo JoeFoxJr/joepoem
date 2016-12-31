@@ -19,10 +19,14 @@ a {
   text-decoration: none;
 }
 
+*:focus {
+  outline:0;
+}
+
 #main-page-header {
   background-color: #4CD4B0;
   height: 100vh;
-  min-height: 450px;
+  min-height: 700px;
 }
 
 #main-page-title {
@@ -54,6 +58,8 @@ a {
   text-align: center;
   display: inline-block;
   vertical-align: bottom;
+
+  color: #4CD4B0;
 }
 
 .scroll-up {
@@ -63,23 +69,21 @@ a {
   text-align: center;
   display: inline-block;
   vertical-align: top;
+
+  color: #4CD4B0;
 }
 
 #first-scroll:hover, .scroll-down:hover, .scroll-up:hover {
   background-color: #2980b9;
 }
 
-#a, #b {
-  color: #4CD4B0;
-}
-
 #last-scroll {
   color: #FFFCE6;
 }
 
-#poems-section {
-/*  height: 100vh;
-  min-height: 450px;*/
+.poem-section {
+  height: 100vh;
+  min-height: 800px;
 }
 
 .poem1 {
