@@ -26,7 +26,8 @@ a {
 #main-page-header {
   background-color: #4CD4B0;
   height: 100vh;
-  min-height: 700px;
+  min-height: 750px;
+  position: relative;
 }
 
 #main-page-title {
@@ -51,17 +52,6 @@ a {
   bottom: 0px;
 }
 
-.scroll-down {
-  height: 100px;
-  width:100%;
-  font-size:100px;
-  text-align: center;
-  display: inline-block;
-  vertical-align: bottom;
-
-  color: #4CD4B0;
-}
-
 .scroll-up {
   height: 100px;
   width:100%;
@@ -71,6 +61,20 @@ a {
   vertical-align: top;
 
   color: #4CD4B0;
+}
+
+.scroll-down {
+  height: 100px;
+  width:100%;
+  font-size:100px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: bottom;
+
+  color: #4CD4B0;
+
+  position: absolute;
+  bottom: 0;
 }
 
 #first-scroll:hover, .scroll-down:hover, .scroll-up:hover {
@@ -83,7 +87,8 @@ a {
 
 .poem-section {
   height: 100vh;
-  min-height: 800px;
+  min-height: 750px;
+  position: relative;
 }
 
 .poem1 {
